@@ -27,10 +27,16 @@
     ...
    <?php
 ## Config
-    Path: `/lib/config/config.php`
+    Path: /lib/config/config.php
 
      define('BASE_URL', 'new-mvc-shop');
      define('PATH_URL', '/');
      define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
      define('PATH_URL_IMG_PRODUCT', PATH_URL . 'public/upload/products/');
+
+## Database
+    define('DB_HOST', 'localhost');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');
+    define('DB_NAME', 'shop_ktpm_3');
     
