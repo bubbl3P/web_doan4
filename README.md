@@ -1,6 +1,5 @@
 # web_doan4
-Hi
-`1. FRONT-END
+1. FRONT-END
     - Shopping cart
     - Save cart with database
     - Customer login
@@ -11,7 +10,6 @@ Hi
     - Search, pagination,...
     - Checkout, PlaceOrder,...
     ...
-`
 =================================================================
 
 2. BACKEND-ADMIN
@@ -25,4 +23,11 @@ Hi
     - Template manager  (Create, update)
     - Backup database 
     ...
+   <?php
+3. EDIT CONFIG
+    define('BASE_URL', 'new_mvc_shop');
+    define('PATH_URL', '/');
+    define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
+    define('PATH_URL_IMG_PRODUCT', PATH_URL . 'public/upload/products/'); 
+    
     
