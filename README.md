@@ -1,5 +1,5 @@
 # web_doan4
-##Feature
+## Feature
 1. FRONT-END
     - Shopping cart
     - Save cart with database
@@ -26,7 +26,7 @@
     - Backup database 
     ...
    <?php
-3. EDIT CONFIG
+## Config
 define('BASE_URL', 'new-mvc-shop');
 define('PATH_URL', '/');
 define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
