@@ -26,7 +26,7 @@
     - Backup database 
     ...
    <?php
-## Config
+## Edit Config
     Path: /lib/config/config.php
 
      define('BASE_URL', 'new-mvc-shop');
@@ -34,7 +34,9 @@
      define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
      define('PATH_URL_IMG_PRODUCT', PATH_URL . 'public/upload/products/');
 
-## Database
+## Edit Database
+    Path: /lib/config/database.php
+
     define('DB_HOST', 'localhost');
     define('DB_USER', 'root');
     define('DB_PASS', '');
