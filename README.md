@@ -28,6 +28,7 @@
    <?php
 ## Config
     Path: `/lib/config/config.php`
+
      define('BASE_URL', 'new-mvc-shop');
      define('PATH_URL', '/');
      define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
