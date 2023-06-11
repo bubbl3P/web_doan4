@@ -35,6 +35,14 @@
      define('PATH_URL_IMG', PATH_URL . 'public/upload/images/');
      define('PATH_URL_IMG_PRODUCT', PATH_URL . 'public/upload/products/');
 
+## Edit Sendmail
+    Path: /lib/config/sendmail.php
+
+    define('SMTP_HOST','smtp.gmail.com');
+    define('SMTP_PORT','465');
+    define('SMTP_UNAME','add_your_mail');
+    define('SMTP_PWORD','add_your_application_password_from_your_mail');
+
 ## Edit Database
     Path: /lib/config/database.php
 
